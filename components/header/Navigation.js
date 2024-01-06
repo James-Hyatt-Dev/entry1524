@@ -8,7 +8,7 @@ import EntryLogo from '/public/logos/EntryLogo.webp'
 function Navigation() {
   return (
     // main container
-    <div className="shadow-md w-screen pt-2 h-28 fixed top-0 bg-white">
+    <div className="shadow-md w-screen pt-2 h-28 fixed top-0 bg-white z-50">
 
         {/* wrapper */}
         <div className="flex flex-col items-center w-full h-full justify-center">
