@@ -1,15 +1,16 @@
-import Link from 'next/link'
 import React from 'react'
+import Link from 'next/link';
 
 
-function NavOptions({ title, href, Icon }) {
+
+function NavOptions({title, href, Icon}) {
   return (
-    // container
-    // reusable component for icons in the navigation of the header
-    <div className="">
+    <div className="flex group flex-col text-entry items-center justify-center pt-4 text-accent">
 
-        {/* icon */}
-        <Link href={href} >
+        {/* icon and link */}
+        <Link
+            href={href}
+        >
             {Icon}
         </Link>
 
@@ -17,7 +18,6 @@ function NavOptions({ title, href, Icon }) {
         <div className="text-xs font-semibold invisible group-hover:visible">
             {title}
         </div>
-
     </div>
   )
 }
