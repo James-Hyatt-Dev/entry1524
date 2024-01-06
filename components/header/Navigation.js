@@ -20,7 +20,9 @@ function Navigation() {
                     alt='entry logo displayed in main color pastel green'
                 />
             </section>
+
         </div>
+        
     </div>
   )
 }
